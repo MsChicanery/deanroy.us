@@ -163,15 +163,9 @@ const Home = () => {
                                 <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                                     <button
                                         type="button"
-                                        className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-blue-300"
-                                    >
-                                        Sign Up
-                                    </button>
-                                    <button
-                                        type="button"
                                         className="border-2 border-gray-300 hover:border-gray-400 text-gray-700 hover:text-gray-900 font-semibold py-4 px-8 rounded-lg transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-gray-300"
                                     >
-                                        Join Our Contact List
+                                        <a href="/about">Join Our Contact List</a>
                                     </button>
                                 </div>
                             </div>
