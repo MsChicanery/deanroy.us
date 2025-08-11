@@ -44,64 +44,83 @@ const About = () => {
                     Contact me
                 </h2>
 
-                <form className="space-y-6">
-                    <div className="flex flex-col sm:flex-row sm:space-x-6">
-                        <div className="flex-1">
-                            <label className="block text-sm font-medium mb-1">First name</label>
-                            <input
-                                type="text"
-                                placeholder="Jane"
-                                className="w-full rounded-md border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-800"
-                            />
-                        </div>
-                        <div className="flex-1 mt-4 sm:mt-0">
-                            <label className="block text-sm font-medium mb-1">Last name</label>
-                            <input
-                                type="text"
-                                placeholder="Smitherton"
-                                className="w-full rounded-md border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-800"
-                            />
-                        </div>
-                    </div>
-
-                    <div>
-                        <label className="block text-sm font-medium mb-1">Email address</label>
-                        <input
-                            type="email"
-                            placeholder="email@janesfakedomain.net"
-                            className="w-full rounded-md border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-800"
-                        />
-                    </div>
-
-                    <div>
-                        <label className="block text-sm font-medium mb-1">Phone Number</label>
-                        <input
-                            type="tel"
-                            placeholder="(123) 456-7890"
-                            className="w-full rounded-md border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-800"
-                        />
-                    </div>
-
-                    <div>
-                        <label className="block text-sm font-medium mb-1">Your message</label>
-                        <textarea
-                            placeholder="Enter your question or message"
-                            className="w-full rounded-md border border-gray-300 px-4 py-2 resize-y focus:outline-none focus:ring-2 focus:ring-green-800 min-h-[100px]"
-                        />
-                    </div>
-
-                    <p className="text-xs text-gray-600 leading-relaxed">
-                        By submitting this form and signing up for texts, you consent to receive donation asks and informational messages from parties related to the Dean Roy Campaign. Msg & data rates may apply. Msg frequency varies. Unsubscribe at any time by replying STOP. Reply HELP for help.
-                    </p>
-
-                    <button
-                        type="submit"
-                        className="w-full bg-green-800 hover:bg-green-900 transition-colors text-white font-semibold py-3 rounded-md"
+                <form
+                    action="https://formspree.io/f/xldlavdk"
+                    method="POST"
+                    className="space-y-6"
                     >
-                        Submit
-                    </button>
-                </form>
-            </section>
+                <div className="flex flex-col sm:flex-row sm:space-x-6">
+                    <div className="flex-1">
+                        <label className="block text-sm font-medium mb-1" htmlFor="firstName">First name</label>
+                        <input
+                            id="firstName"
+                            name="firstName"
+                            type="text"
+                            placeholder="Jane"
+                            required
+                            className="w-full rounded-md border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-800"
+                        />
+                    </div>
+                    <div className="flex-1 mt-4 sm:mt-0">
+                        <label className="block text-sm font-medium mb-1" htmlFor="lastName">Last name</label>
+                        <input
+                            id="lastName"
+                            name="lastName"
+                            type="text"
+                            placeholder="Smitherton"
+                            required
+                            className="w-full rounded-md border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-800"
+                        />
+                    </div>
+                </div>
+
+                <div>
+                    <label className="block text-sm font-medium mb-1" htmlFor="email">Email address</label>
+                    <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        placeholder="email@janesfakedomain.net"
+                        required
+                        className="w-full rounded-md border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-800"
+                    />
+                </div>
+
+                <div>
+                    <label className="block text-sm font-medium mb-1" htmlFor="phone">Phone Number</label>
+                    <input
+                        id="phone"
+                        name="phone"
+                        type="tel"
+                        placeholder="(123) 456-7890"
+                        className="w-full rounded-md border border-gray-300 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-800"
+                    />
+                </div>
+
+                <div>
+                    <label className="block text-sm font-medium mb-1" htmlFor="message">Your message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Enter your question or message"
+                        required
+                        className="w-full rounded-md border border-gray-300 px-4 py-2 resize-y focus:outline-none focus:ring-2 focus:ring-green-800 min-h-[100px]"
+                    />
+                </div>
+
+                <p className="text-xs text-gray-600 leading-relaxed">
+                    By submitting this form and signing up for texts, you consent to receive donation asks and informational messages from parties related to the Dean Roy Campaign. Msg & data rates may apply. Msg frequency varies. Unsubscribe at any time by replying STOP. Reply HELP for help.
+                </p>
+
+                <button
+                    type="submit"
+                    className="w-full bg-green-800 hover:bg-green-900 transition-colors text-white font-semibold py-3 rounded-md"
+                >
+                    Submit
+                </button>
+            </form>
+
+        </section>
 
             <Footer />
         </div>
