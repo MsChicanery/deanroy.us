@@ -79,7 +79,7 @@ const Footer = () => {
                         <div className="text-sm text-black text-center md:text-left">
                             <div className="mb-1">
                                 <span>Designed and Built by </span>
-                                <span className="text-black font-medium">Kaleb M. Arora</span>
+                                <span className="text-black font-medium">Kayla M. Arora</span>
                                 <span> • Hosted on Vercel & Designed with Figma</span>
                             </div>
                             <div>
@@ -89,7 +89,7 @@ const Footer = () => {
 
                         {/* Legal Notice */}
                         <div className="bg-white px-4 py-2 rounded-lg">
-                            <div className="text-xs text-black font-medium text-center">PAID FOR BY KALEB M. ARORA</div>
+                            <div className="text-xs text-black font-medium text-center">PAID FOR BY Kayla M. ARORA</div>
                         </div>
                     </div>
 

@@ -23,7 +23,7 @@ const About = () => {
                             <br /><br />
                             His plans include consolidating school districts, taxing large corporations and short-term rentals, strengthening ties with Canada and the EU, and keeping Vermont free from all those who try to harm it. If elected, Roy would be the youngest Governor in the history of America.
                             <br /><br />
-                            Roy's campaign is managed by Charles Bass, and his website is ran by Kaleb Arora and hosted on Altivox Networks LLC.
+                            Roy's campaign is managed by Charles Bass, and his website is ran by Kayla Arora.
                         </p>
                     </div>
 
