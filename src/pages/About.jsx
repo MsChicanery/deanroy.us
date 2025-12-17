@@ -16,14 +16,14 @@ const About = () => {
                             About
                         </h1>
                         <p className="text-lg sm:text-xl font-semibold mb-6">
-                            Dean Roy is running to become the first governor under the age of 18 and reduce the affordability crisis.
+                            Dean Roy is running to become the Governor of Vermont to reduce the affordability crisis.
                         </p>
                         <p className="text-base sm:text-lg leading-relaxed text-gray-800">
                             Dean Roy is a student at Stowe Middle School and a member of the Freedom and Unity party. Born and raised in Vermont, Roy has developed ties to his community and city.
                             <br /><br />
                             His plans include consolidating school districts, taxing large corporations and short-term rentals, strengthening ties with Canada and the EU, and keeping Vermont free from all those who try to harm it. If elected, Roy would be the youngest Governor in the history of America.
                             <br /><br />
-                            Roy's campaign is managed by Charles Bass, and his website is ran by Kayla Arora.
+                            Roy's campaign is managed by Charles Bass, and his website is run by Kayla Arora.
                         </p>
                     </div>
 
