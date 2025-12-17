@@ -45,7 +45,7 @@ const About = () => {
                 </h2>
 
                 <form
-                    action="https://formspree.io/f/xldlavdk"
+                    action="https://submit-form.com/DNtgsDjuN"
                     method="POST"
                     className="space-y-6"
                     >
