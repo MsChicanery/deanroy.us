@@ -45,9 +45,10 @@ const About = () => {
                 </h2>
 
                 <form
-                    action="https://submit-form.com/DNtgsDjuN"
+                    action="https://api.web3forms.com/submit" method="POST"
                     className="space-y-6"
                     >
+                    <input type="hidden" name="access_key" value="0a1716a1-be29-44cd-80cf-437dd3f4c0fc">
                 <div className="flex flex-col sm:flex-row sm:space-x-6">
                     <div className="flex-1">
                         <label className="block text-sm font-medium mb-1" htmlFor="firstName">First name</label>
