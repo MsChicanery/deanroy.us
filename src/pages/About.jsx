@@ -46,7 +46,6 @@ const About = () => {
 
                 <form
                     action="https://submit-form.com/DNtgsDjuN"
-                    method="POST"
                     className="space-y-6"
                     >
                 <div className="flex flex-col sm:flex-row sm:space-x-6">
